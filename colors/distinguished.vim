@@ -39,15 +39,15 @@
 "	   | Highlight group                |  CTFG |  CTBG |    CTAttributes | || |   GUIFG |    GUIBG |   GUIAttributes |
 "	   |--------------------------------|-------|-------|-----------------| || |---------|----------|-----------------|
 call s:ColorDictParser({
-	\   'Normal'                      : [    231,     16,               '',      'ffffff',  '000000',               '']
+	\   'Normal'                      : [    233,    253,               '',      'ffffff',  '000000',               '']
 	\ , 'Visual'                      : [    240,    253,               '',      '585858',  'dadada',               '']
 	\
 	\ , 'Cursor'                      : [     '',     '',               '',      'ffffff',  'dd4010',               '']
 	\ , 'lCursor'                     : [     '',     '',               '',      'ffffff',  '89b6e2',               '']
 	\
 	\ , 'CursorLine'                  : [     '',    236,               '',            '',  '3a3a3a',               '']
-	\ , 'CursorLineNr'                : [    231,    240,               '',      'ffffff',  '585858',               '']
-	\ , 'CursorColumn'                : [    231,    237,               '',      'ffffff',  '3a3a3a',               '']
+	\ , 'CursorLineNr'                : [    237,    240,               '',      'ffffff',  '585858',               '']
+	\ , 'CursorColumn'                : [    234,    237,               '',      'ffffff',  '3a3a3a',               '']
 	\
 	\ , 'Folded'                      : [    249,    234,               '',      'b2b2b2',  '1c1c1c',               '']
 	\ , 'FoldColumn'                  : [    243,    234,               '',      '767676',  '1c1c1c',               '']
@@ -57,7 +57,7 @@ call s:ColorDictParser({
 	\ , 'StatusLine'                  : [    231,    236,        'reverse',      'ffffff',  '303030',        'reverse']
 	\ , 'StatusLineNC'                : [    244,    232,               '',      '808080',  '080808',               '']
 	\
-	\ , 'LineNr'                      : [    243,    235,               '',      '767676',  '262626',               '']
+	\ , 'LineNr'                      : [    234,    235,               '',      '767676',  '262626',               '']
 	\ , 'VertSplit'                   : [    240,     '',               '',      '585858',  '1c1c1c',               '']
 	\
 	\ , 'WildMenu'                    : [    234,    231,               '',      '1c1c1c',  'ffffff',               '']

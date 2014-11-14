@@ -45,7 +45,7 @@ call s:ColorDictParser({
 	\ , 'lCursor'                     : [     '',     '',               '',      'ffffff',  '89b6e2',               '']
 	\
 	\ , 'CursorLine'                  : [     '',    236,               '',            '',  '3a3a3a',               '']
-	\ , 'CursorLineNr'                : [    231,    240,               '',      'ffffff',  '585858',               '']
+	\ , 'CursorLineNr'                : [    231,    240,           'NONE',      'ffffff',  '585858',           'NONE']
 	\ , 'CursorColumn'                : [    231,    237,               '',      'ffffff',  '3a3a3a',               '']
 	\
 	\ , 'Folded'                      : [    249,    234,               '',      'b2b2b2',  '1c1c1c',               '']
@@ -53,42 +53,42 @@ call s:ColorDictParser({
 	\ , 'SignColumn'                  : [    231,    233,               '',      'ffffff',  '121212',               '']
 	\ , 'ColorColumn'                 : [      '',   233,               '',            '',  '262626',               '']
 	\
-	\ , 'StatusLine'                  : [    231,    236,               '',      'ffffff',  '303030',               '']
+	\ , 'StatusLine'                  : [    231,    236,        'reverse',      'ffffff',  '303030',        'reverse']
 	\ , 'StatusLineNC'                : [    244,    232,               '',      '808080',  '080808',               '']
 	\
 	\ , 'LineNr'                      : [    243,    235,               '',      '767676',  '262626',               '']
 	\ , 'VertSplit'                   : [    240,     '',               '',      '585858',  '1c1c1c',               '']
 	\
 	\ , 'WildMenu'                    : [    234,    231,               '',      '1c1c1c',  'ffffff',               '']
-	\ , 'Directory'                   : [    143,     '',               '',      'afaf5f',        '',               '']
+	\ , 'Directory'                   : [    143,     '',           'NONE',      'afaf5f',        '',           'NONE']
 	\ , 'Underlined'                  : [    130,     '',               '',      'af5f00',        '',               '']
 	\
 	\ , 'Question'                    : [     74,     '',               '',      '5fafd7',        '',               '']
-	\ , 'MoreMsg'                     : [    214,     '',               '',      'ffaf00',        '',               '']
+	\ , 'MoreMsg'                     : [    214,     '',           'NONE',      'ffaf00',        '',           'NONE']
 	\ , 'WarningMsg'                  : [    202,     '',               '',      'ff5f00',        '',               '']
 	\ , 'ErrorMsg'                    : [    196,     '',               '',      'ff0000',        '',               '']
 	\
-	\ , 'Comment'                     : [    243,    233,               '',      '767676',  '121212',               '']
+	\ , 'Comment'                     : [    243,    233,           'NONE',      '767676',  '121212',           'NONE']
 	\ , 'vimCommentTitleLeader'       : [    250,    233,               '',      'bcbcbc',  '121212',               '']
 	\ , 'vimCommentTitle'             : [    250,    233,               '',      'bcbcbc',  '121212',               '']
 	\ , 'vimCommentString'            : [    245,    233,               '',      '8a8a8a',  '121212',               '']
 	\
 	\ , 'TabLine'                     : [    231,    238,               '',      'ffffff',  '444444',               '']
-	\ , 'TabLineSel'                  : [    255,     '',               '',      'eeeeee',        '',               ']
+	\ , 'TabLineSel'                  : [    255,     '',           'NONE',      'eeeeee',        '',           'NONE']
 	\ , 'TabLineFill'                 : [    240,    238,               '',      '585858',  '444444',               '']
 	\ , 'TabLineNumber'               : [    160,    238,               '',      'd70000',  '444444',               '']
 	\ , 'TabLineClose'                : [    245,    238,               '',      '8a8a8a',  '444444',               '']
 	\
-	\ , 'SpellCap'                    : [    231,     31,               '',      'ffffff',  '0087af',               ']
+	\ , 'SpellCap'                    : [    231,     31,               '',      'ffffff',  '0087af',               '']
 	\
-	\ , 'SpecialKey'                  : [    239,     '',               '',      '4e4e4e',        '',               '']
-	\ , 'NonText'                     : [     88,     '',               '',      '870000',        '',               '']
+	\ , 'SpecialKey'                  : [    239,     '',           'NONE',      '4e4e4e',        '',           'NONE']
+	\ , 'NonText'                     : [     88,     '',           'NONE',      '870000',        '',           'NONE']
 	\ , 'MatchParen'                  : [    231,     25,               '',      'ffffff',  '005faf',               '']
 	\
 	\ , 'Constant'                    : [    137,     '',               '',      'af875f',        '',               '']
-	\ , 'Special'                     : [    150,     '',               '',      'afd787',        '',               '']
+	\ , 'Special'                     : [    150,     '',           'NONE',      'afd787',        '',           'NONE']
 	\ , 'Identifier'                  : [     66,     '',               '',      '5f8787',        '',               '']
-	\ , 'Statement'                   : [    186,     '',               '',      'd7d787',        '',               '']
+	\ , 'Statement'                   : [    186,     '',           'NONE',      'd7d787',        '',           'NONE']
 	\ , 'PreProc'                     : [    247,     '',               '',      '9e9e9e',        '',               '']
 	\ , 'Type'                        : [     67,     '',               '',      '5f87af',        '',               '']
 	\ , 'String'                      : [    143,     '',               '',      'afaf5f',        '',               '']
@@ -100,7 +100,7 @@ call s:ColorDictParser({
 	\ , 'PreCondit'                   : [    173,     '',               '',      'd7875f',        '',               '']
 	\ , 'Keyword'                     : [    173,     '',               '',      'd7875f',        '',               '']
 	\ , 'Search'                      : [    231,    131,               '',      '000000',  'ffff5f',      'underline']
-	\ , 'Title'                       : [    231,     '',               '',      'ffffff',        '',               '']
+	\ , 'Title'                       : [    231,     '',           'NONE',      'ffffff',        '',           'NONE']
 	\ , 'Delimiter'                   : [    246,     '',               '',      '949494',        '',               '']
 	\ , 'StorageClass'                : [    187,     '',               '',      'd7d7af',        '',               '']
 	\ , 'Operator'                    : [    180,     '',               '',      'd7af87',        '',               '']
@@ -159,9 +159,9 @@ call s:ColorDictParser({
 	\
 	\ , 'cssImportant'                : [    166,     '',               '',      'd75f00',        '',               '']
 	\
-	\ , 'DiffAdd'                     : [    112,     22,               '',      '87d700',  '005f00',               '']
-	\ , 'DiffChange'                  : [    220,     94,               '',      'ffd700',  '875f00',               '']
-	\ , 'DiffDelete'                  : [    160,     '',               '',      'd70000',        '',               '']
+	\ , 'DiffAdd'                     : [    112,     22,           'NONE',      '87d700',  '005f00',           'NONE']
+	\ , 'DiffChange'                  : [    220,     94,           'NONE',      'ffd700',  '875f00',           'NONE']
+	\ , 'DiffDelete'                  : [    160,     '',           'NONE',      'd70000',        '',           'NONE']
 	\ , 'DiffText'                    : [    220,     94,        'reverse',      'ffd700',  '875f00',        'reverse']
 	\
 	\ , 'diffLine'                    : [     68,     '',               '',      '5f87d7',        '',               '']
@@ -180,3 +180,5 @@ hi link phpDocParam        vimCommentTitle
 hi link diffAdded          DiffAdd
 hi link diffChanged        DiffChange
 hi link diffRemoved        DiffDelete
+
+hi link ModeMsg            Normal

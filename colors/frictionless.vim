@@ -59,7 +59,7 @@ call s:ColorDictParser({
 	\ , 'LineNr'                      : [    243,    234,               '',      '767676',  '262626',               '']
 	\ , 'VertSplit'                   : [    240,     '',               '',      '585858',  '1c1c1c',               '']
 	\
-	\ , 'WildMenu'                    : [    234,    231,               '',      '1c1c1c',  'ffffff',               '']
+	\ , 'WildMenu'                    : [    196,    231,               '',      'ff0000',  'ffffff',               '']
 	\ , 'Directory'                   : [    143,     '',               '',      'afaf5f',        '',               '']
 	\ , 'Underlined'                  : [    130,     '',               '',      'af5f00',        '',               '']
 	\
